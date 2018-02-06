@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="geronimo-jaxws_2.2_spec-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/axis2/endorsed/geronimo-jaxws_2.2_spec-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/axis2/endorsed/geronimo-saaj_1.3_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/axis2/endorsed/jaxb-api-2.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
