@@ -26,7 +26,7 @@ public class ClientTest {
             options.setAction("urn:sayHelloWorldFrom");
 
             /**
-             * 指定要调用的getPrice方法及WSDL文件的命名空间
+             * 指定要调用的sayHelloWorldFrom方法及WSDL文件的命名空间
              * 如果 webservice 服务端由axis2编写
              * 命名空间 不一致导致的问题
              * org.apache.axis2.AxisFault: java.lang.RuntimeException: Unexpected subelement arg0
@@ -45,7 +45,7 @@ public class ClientTest {
             String result = element.getFirstElement().getText();
             System.out.println(result);
 
-            // 调用方法二 getPrice方法并输出该方法的返回值
+            // 调用方法二 sayHelloWorldFrom方法并输出该方法的返回值
             Object[] response = serviceClient.invokeBlocking(qname, parameters, returnTypes);
              String r = (String) response[0];
             System.out.println(r);
