@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ws_axis_createdbyintellijidea:war exploded">
+  <artifact type="war" name="ws_axis_createdbyintellijidea:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/ws_axis_createdbyintellijidea_war_exploded</output-path>
-    <root id="root">
+    <root id="archive" name="ws_axis_createdbyintellijidea_war exploded.war">
       <element id="javaee-facet-resources" facet="ws_axis_createdbyintellijidea/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -9,6 +9,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="library" level="project" name="activation-1.1" />
+          <element id="library" level="project" name="geronimo-jaxws_2.2_spec-1.0" />
         </element>
       </element>
     </root>
